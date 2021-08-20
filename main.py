@@ -58,7 +58,7 @@ def run():
 			print("[!] Error!!!")
 
 def run2():
-	data = random._urandom(696969)
+	data = random._urandom(2048)
 	i = random.choice(("\033[31mAHHHHHH KOKKK NEMBUSSS","",""))
 	while True:
 		try:
