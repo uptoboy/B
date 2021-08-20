@@ -37,7 +37,7 @@ print("""
 ██╗░░██║██╔══╝░░░░░██║░░░░██╔██╗░
 ╚█████╔╝███████╗░░░██║░░░██╔╝╚██╗
 ░╚════╝░╚══════╝░░░╚═╝░░░╚═╝░░╚═╝""")
-print("Subs Han JetX")
+print("Subs JetX")
 
 ip = str(input("> HOST/IP:"))
 port = int(input("> PORT:"))
