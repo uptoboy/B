@@ -177,7 +177,7 @@ def logo():
     else:
         os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title CyberWare DDoS")
     print('''
-
+        Remkae by
 ░░░░░██╗███████╗████████╗██╗░░██╗
 ░░░░░██║██╔════╝╚══██╔══╝╚██╗██╔╝
 ░░░░░██║█████╗░░░░░██║░░░░╚███╔╝░
